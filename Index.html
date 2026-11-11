@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AdSelect - Sign Up</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+  body{min-height:100vh;background:#111;color:white;display:flex;align-items:center;justify-content:center;padding:20px;overflow:hidden}
+  body::before{content:"";position:absolute;width:500px;height:500px;background:#FFD500;border-radius:50%;filter:blur(130px);opacity:.22;top:-120px;left:-120px}
+  body::after{content:"";position:absolute;width:400px;height:400px;background:#FFD500;border-radius:50%;filter:blur(130px);opacity:.18;bottom:-120px;right:-120px}
+  .stage{width:100%;max-width:420px;text-align:center;position:relative;z-index:2}
+  .logo{width:70px;height:70px;background:#FFD500;color:#000;font-size:32px;font-weight:900;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;box-shadow:0 0 25px rgba(255,213,0,.5)}
+  h1{font-size:32px;color:#FFD500;letter-spacing:1px}
+  h1 span{color:white;font-size:18px;display:block;margin-top:4px;letter-spacing:3px}
+  .subtitle{color:#bbb;font-size:14px;margin:10px 0 20px}
+  .form-box{background:#1a1a1a;border:2px solid #FFD500;border-radius:20px;padding:22px;text-align:left;box-shadow:0 0 30px rgba(255,213,0,.3)}
+  .form-box h2{color:#FFD500;text-align:center;font-size:22px}
+  .form-box p{color:#aaa;text-align:center;font-size:13px;margin:5px 0 15px}
+  input{width:100%;padding:13px 15px;margin-bottom:11px;border:2px solid #333;border-radius:12px;outline:none;font-size:15px;background:#111;color:white}
+  input:focus{border-color:#FFD500}
+  button{width:100%;padding:14px;border:none;border-radius:12px;background:#FFD500;color:#000;font-size:16px;font-weight:800;cursor:pointer}
+  button:hover{background:#ffe135}
+  .login{margin-top:12px;font-size:14px;text-align:center;color:#aaa}
+  .login a{color:#FFD500;font-weight:700;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="logo">A</div>
+  <h1>ADSELECT <span>SIGN UP</span></h1>
+  <p class="subtitle">Create your AdSelect account to start earning</p>
+
+  <div class="form-box">
+    <h2>Create Account ✨</h2>
+    <p>Join AdSelect today — it's free!</p>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit">Sign Up 🚀</button>
+    </form>
+    <div class="login">Already have an account? <a href="#">Login</a></div>
+  </div>
+</div>
+</body>
+</html>
